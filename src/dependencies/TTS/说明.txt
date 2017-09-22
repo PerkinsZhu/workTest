@@ -1,0 +1,1 @@
+需要把jacob-1.18-xXX.dll（压缩包中解压）文件放置在C:\Windows\System32（32位系统）或者C:\Windows\SysWOW64(64位系统)
