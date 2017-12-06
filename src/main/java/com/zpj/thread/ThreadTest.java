@@ -1,11 +1,8 @@
 package com.zpj.thread;
 
 import com.zpj.bean.Student;
-import com.zpj.proxy.jdk.Run;
-import com.zpj.scala.scalaz.MyRun;
 import com.zpj.thread.testsynchronized.SynchronizedTest;
 
-import java.util.HashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;

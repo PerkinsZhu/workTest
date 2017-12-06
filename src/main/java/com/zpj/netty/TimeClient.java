@@ -1,3 +1,4 @@
+/*
 package com.zpj.netty;
 
 import io.netty.bootstrap.Bootstrap;
@@ -56,4 +57,4 @@ public class TimeClient {
         }
         new TimeClient().connect(port, "127.0.0.1");
     }
-}
+}*/

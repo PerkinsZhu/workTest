@@ -1,3 +1,4 @@
+/*
 package com.zpj.netty;
 
 import io.netty.bootstrap.ServerBootstrap;
@@ -17,7 +18,7 @@ public class TimeServer {
         try {
             // 配置服务器的NIO线程租
             ServerBootstrap b = new ServerBootstrap();
-            b.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class).option(ChannelOption.SO_BACKLOG, 1024) .childHandler(new ChildChannelHandler());
+            b.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class).option(ChannelOption.SO_BACKLOG, 1024).childHandler(new ChildChannelHandler());
             // 绑定端口，同步等待成功
             ChannelFuture f = b.bind(port).sync();
             // 等待服务端监听端口关闭
@@ -48,4 +49,4 @@ public class TimeServer {
 
         new TimeServer().bind(port);
     }
-}
+}*/
