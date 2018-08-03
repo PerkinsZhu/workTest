@@ -12,7 +12,7 @@ import java.util.stream.Stream;
  */
 public class BaseTest {
 
-    @Test
+    /*@Test
     public void testBase(){
         Set<Integer> ints = Set.of(1, 2, 3);
         List<String> strings = List.of("first", "second");
@@ -26,7 +26,7 @@ public class BaseTest {
         List<String> names =  Arrays.asList(array);
         Collections.sort(names, (String a, String b) -> b.compareTo(a));
         System.out.printf(names.get(0));
-    }
+    }*/
  /*   @Test
     public void testHttp2(){
         HttpClient client = HttpClient.newHttpClient();
@@ -65,7 +65,7 @@ interface Student{
     default void showInfo(){
         System.out.println(getInfo());
     }
-    private String getInfo(){
+    default String getInfo(){
         return "hekki";
     }
 }
